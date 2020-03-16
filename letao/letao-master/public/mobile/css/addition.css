@@ -1,0 +1,17 @@
+.mui-input-row input{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mui-input-row textarea{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mui-scroll button{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 50px;
+}

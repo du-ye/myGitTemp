@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.lt_nav{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+.lt_nav ul{
+    width: 100%;
+    height: 260px;
+    padding: 10px;
+}
+.lt_nav ul li{
+    width: 33.3%;
+    float: left;
+}
+.lt_nav ul li a{
+    display: block;
+    height: 120px;
+}
+.lt_nav ul li a img{
+    width: 100%;
+}
+
+.lt_active{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.lt_active ul{
+    width: 100%;
+    height: 260px;
+}
+.lt_active ul li{
+    float: left;
+    width: 33.3%;
+}
+.lt_active ul li.lt_active1{
+    height: 120px;
+    background: url("../images/active1.png") no-repeat;
+    background-size: cover;
+}
+.lt_active ul li.lt_active2{
+    height: 120px;
+    background: url("../images/active2.png") no-repeat;
+    background-size: cover;
+}
+.lt_active ul li.lt_active3{
+    float: right;
+}
+.lt_active ul li.lt_active3{
+    height: 260px;
+    background: url("../images/active3.png") no-repeat;
+    background-size: cover;
+}
+.lt_active ul li.lt_active4{
+    height: 140px;
+    background: url("../images/active4.png") no-repeat;
+    background-size: cover;
+}
+.lt_active ul li.lt_active5{
+    height: 140px;
+    background: url("../images/active5.png") no-repeat;
+    background-size: cover;
+}
+
+.lt_title{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lt_title img{
+    width: 100%;
+    height: 65px;
+}
+
+.lt_brand{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lt_brand ul{
+    width: 100%;
+}
+.lt_brand ul li{
+    float: left;
+    width: 25%;
+}
+.lt_brand ul li img{
+    width: 100%;
+}
+
+.lt_product{
+    width: 100%;
+    margin-top: -10px
+}
+.lt_product ul{
+    width: 100%;
+    padding: 10px;
+}
+.lt_product ul li{
+    width: 47%;
+    float: left;
+    height: 320px;
+    margin: 10px 5px 0px 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow:1px 1px 1px 0px #ccc;
+}
+.lt_product ul li div:first-child{
+    width: 100%;
+    height: 60%;
+}
+.lt_product ul li div img{
+    width: 100%;
+}
+.lt_product ul li div .tite{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #8F8F94;
+    overflow: hidden;
+}
+.lt_product ul li div p{
+    text-align: center;
+    color: #FF3300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.lt_product ul li div p span{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.lt_product ul li div:last-child{
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+.lt_product ul li div input{
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+    color: #ffffff;
+    background: #006699;
+}

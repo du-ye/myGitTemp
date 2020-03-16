@@ -1,0 +1,54 @@
+.mui-input-row .inp{
+    width: 94%;
+    margin-left: 3%;
+    border: 1px solid #c8c7cc;
+}
+.mui-input-group .mui-input-row:after {
+     background-color: #ffffff;
+}
+.mui-input-row .mui-input-clear~.mui-icon-clear, .mui-input-row .mui-input-password~.mui-icon-eye, .mui-input-row .mui-input-speech~.mui-icon-speech {
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    color: #999;
+}
+.mui-input-group:after{
+    background-color:#fff;
+}
+.mui-input-group:before{
+    background-color:#fff;
+}
+.mui-input-group .mui-input-row{
+    margin-top: 10px;
+}
+.mui-input-row .inp1{
+    width: 60%;
+    margin-left: 3%;
+    border: 1px solid #c8c7cc;
+}
+.mui-input-row .btn_verification{
+    line-height: 1.1;
+    float: right;
+    width: 30%;
+    padding: 10px 15px;
+    margin-right: 3%;
+}
+.mui-input-row .mui-btn.inp{
+    width: 94%;
+    margin-left: 3%;
+    border: 1px solid #c8c7cc;
+    float: none;
+}
+.mui-input-row.wz{
+    font-size: 12px;
+    vertical-align: middle;
+}
+.mui-input-row.wz a{
+    float: right;
+    margin-right: 3%;
+}
